@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: myfirstpod
+  labels: 
+    env: testing
+spec:
+  containers:
+    - name: myfirstcontainer
+      image: coolgourav147/nginx-custom
